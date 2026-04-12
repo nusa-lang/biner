@@ -1,0 +1,3 @@
+[submodule "pusrak"]
+	path = pusrak
+	url = https://github.com/nusa-lang/pusrak.git
