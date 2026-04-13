@@ -3,5 +3,5 @@
 .extern keluar
 
 awal:
-    movq $5, %rdi
+    movq $0, %rdi
     call keluar
