@@ -1,7 +1,9 @@
 .global awal
 
+# keluar(kode_keluar ecx)
 .extern keluar
 
 awal:
-    movq $0, %rdi
+    movl $0, %ecx
     call keluar
+    ret
